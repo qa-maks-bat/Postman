@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "c6aeb184-a8b5-433c-8fbc-6523870594f2",
-		"name": "maks_tbat_postman_hw1_env",
+		"_postman_id": "262707e7-d564-4b3f-ac1d-a2a0c1bdf761",
+		"name": "maks_tbat_postman_hw1",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "21395920"
 	},
@@ -12,22 +12,26 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}:{{port}}/get_method?name={{my_name}}&age={{my_age}}",
+					"raw": "http://162.55.220.72:5005/get_method?name=Maksim&age=41",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
-					"port": "{{port}}",
+					"port": "5005",
 					"path": [
 						"get_method"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "{{my_name}}"
+							"value": "Maksim"
 						},
 						{
 							"key": "age",
-							"value": "{{my_age}}"
+							"value": "41"
 						}
 					]
 				}
@@ -44,29 +48,45 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "{{my_name}}",
+							"value": "Maksim",
 							"type": "text"
 						},
 						{
 							"key": "age",
-							"value": "{{my_age}}",
+							"value": "41",
 							"type": "text"
 						},
 						{
 							"key": "salary",
-							"value": "{{expected_salary}}",
+							"value": "2000",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "{{url}}:{{port}}/user_info_3",
+					"raw": "http://162.55.220.72:5005/user_info_3",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
-					"port": "{{port}}",
+					"port": "5005",
 					"path": [
 						"user_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Maksim",
+							"disabled": true
+						},
+						{
+							"key": "age",
+							"value": "41",
+							"disabled": true
+						}
 					]
 				}
 			},
@@ -82,29 +102,52 @@
 				"header": [],
 				"body": {
 					"mode": "formdata",
-					"formdata": []
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Maksim",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "age",
+							"value": "41",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "salary",
+							"value": "2000",
+							"type": "text",
+							"disabled": true
+						}
+					]
 				},
 				"url": {
-					"raw": "{{url}}:{{port}}/object_info_1?name={{my_name}}&age={{my_age}}&weight={{my_weight}}",
+					"raw": "http://162.55.220.72:5005/object_info_1?name=Maksim&age=41&weight=75",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
-					"port": "{{port}}",
+					"port": "5005",
 					"path": [
 						"object_info_1"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "{{my_name}}"
+							"value": "Maksim"
 						},
 						{
 							"key": "age",
-							"value": "{{my_age}}"
+							"value": "41"
 						},
 						{
 							"key": "weight",
-							"value": "{{my_weight}}"
+							"value": "75"
 						}
 					]
 				}
@@ -121,29 +164,57 @@
 				"header": [],
 				"body": {
 					"mode": "formdata",
-					"formdata": []
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Maksim",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "age",
+							"value": "41",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "salary",
+							"value": "2000",
+							"type": "text",
+							"disabled": true
+						}
+					]
 				},
 				"url": {
-					"raw": "{{url}}:{{port}}/object_info_2?name={{my_name}}&age={{my_age}}&salary={{expected_salary}}",
+					"raw": "http://162.55.220.72:5005/object_info_2?name=Maksim&age=41&salary=2000",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
-					"port": "{{port}}",
+					"port": "5005",
 					"path": [
 						"object_info_2"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "{{my_name}}"
+							"value": "Maksim"
 						},
 						{
 							"key": "age",
-							"value": "{{my_age}}"
+							"value": "41"
+						},
+						{
+							"key": "weight",
+							"value": "75",
+							"disabled": true
 						},
 						{
 							"key": "salary",
-							"value": "{{expected_salary}}"
+							"value": "2000"
 						}
 					]
 				}
@@ -160,29 +231,57 @@
 				"header": [],
 				"body": {
 					"mode": "formdata",
-					"formdata": []
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Maksim",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "age",
+							"value": "41",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "salary",
+							"value": "2000",
+							"type": "text",
+							"disabled": true
+						}
+					]
 				},
 				"url": {
-					"raw": "{{url}}:{{port}}/object_info_3?name={{my_name}}&age={{my_age}}&salary={{expected_salary}}",
+					"raw": "http://162.55.220.72:5005/object_info_3?name=Maksim&age=41&salary=2000",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
-					"port": "{{port}}",
+					"port": "5005",
 					"path": [
 						"object_info_3"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "{{my_name}}"
+							"value": "Maksim"
 						},
 						{
 							"key": "age",
-							"value": "{{my_age}}"
+							"value": "41"
+						},
+						{
+							"key": "weight",
+							"value": "75",
+							"disabled": true
 						},
 						{
 							"key": "salary",
-							"value": "{{expected_salary}}"
+							"value": "2000"
 						}
 					]
 				}
@@ -199,29 +298,57 @@
 				"header": [],
 				"body": {
 					"mode": "formdata",
-					"formdata": []
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Maksim",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "age",
+							"value": "41",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "salary",
+							"value": "2000",
+							"type": "text",
+							"disabled": true
+						}
+					]
 				},
 				"url": {
-					"raw": "{{url}}:{{port}}/object_info_4?name={{my_name}}&age={{my_age}}&salary={{expected_salary}}",
+					"raw": "http://162.55.220.72:5005/object_info_4?name=Maksim&age=41&salary=2000",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
-					"port": "{{port}}",
+					"port": "5005",
 					"path": [
 						"object_info_4"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "{{my_name}}"
+							"value": "Maksim"
 						},
 						{
 							"key": "age",
-							"value": "{{my_age}}"
+							"value": "41"
+						},
+						{
+							"key": "weight",
+							"value": "75",
+							"disabled": true
 						},
 						{
 							"key": "salary",
-							"value": "{{expected_salary}}"
+							"value": "2000"
 						}
 					]
 				}
@@ -238,29 +365,55 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "{{my_name}}",
+							"value": "Maksim",
 							"type": "text"
 						},
 						{
 							"key": "age",
-							"value": "{{my_age}}",
+							"value": "41",
 							"type": "text"
 						},
 						{
 							"key": "salary",
-							"value": "{{expected_salary}}",
+							"value": "2000",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "{{url}}:{{port}}/user_info_2",
+					"raw": "http://162.55.220.72:5005/user_info_2",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
-					"port": "{{port}}",
+					"port": "5005",
 					"path": [
 						"user_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Maksim",
+							"disabled": true
+						},
+						{
+							"key": "age",
+							"value": "41",
+							"disabled": true
+						},
+						{
+							"key": "weight",
+							"value": "75",
+							"disabled": true
+						},
+						{
+							"key": "salary",
+							"value": "2000",
+							"disabled": true
+						}
 					]
 				}
 			},
